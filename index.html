@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>م / محمود سعيد | رائد تعليم البرمجة والذكاء الاصطناعي والحاسب الآلي</title>
+    <meta name="title" content="م / محمود سعيد | رائد تعليم البرمجة والذكاء الاصطناعي والحاسب الآلي">
+    <meta name="description" content="المنصة التعليمية الرسمية للمهندس محمود سعيد - خبرة أكثر من 14 عاماً في تعليم البرمجة، الذكاء الاصطناعي، ومناهج الحاسب الآلي (ICT) للمراحل الابتدائية، الإعدادية، والثانوية. ابدأ رحلة احتراف المستقبل الآن.">
+    <meta name="keywords" content="محمود سعيد, كورس برمجة, تعليم الذكاء الاصطناعي, منهج ICT, لغات البرمجة للأطفال, بايثون, سي بلس بلس, سكراتش, مدرسة حاسب آلي, كورسات برمجة مصر">
+    <meta name="author" content="م / محمود سعيد">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mahmoud-saeed-sallam.github.io/Computer-Exam/">
+    <meta property="og:title" content="م / محمود سعيد | رائد تعليم البرمجة والذكاء الاصطناعي">
+    <meta property="og:description" content="اكتشف أقوى الدورات التعليمية في البرمجة والذكاء الاصطناعي ومناهج الـ ICT مع المهندس محمود سعيد. خبرة ممتدة منذ عام 2012.">
+    <meta property="og:image" content="me.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="م / محمود سعيد | رائد تعليم البرمجة والذكاء الاصطناعي">
+    <meta property="twitter:description" content="بناء جيل مبدع يمتلك أدوات تكنولوجيا المستقبل من خلال مناهج متطورة وتطبيقات عملية شاملة.">
+    <meta property="twitter:image" content="me.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "المنصة التعليمية للمهندس محمود سعيد",
+      "url": "https://mahmoud-saeed-sallam.github.io/Computer-Exam/",
+      "logo": "me.png",
+      "description": "منصة رائدة لتعليم علوم الحاسب والبرمجة والذكاء الاصطناعي ومناهج ICT لجميع المراحل الدراسية.",
+      "founder": {
+        "@type": "Person",
+        "name": "محمود سعيد",
+        "jobTitle": "Programming & AI Instructor"
+      },
+      "foundingDate": "2012"
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        royal: { 50: '#f0f3ff', 100: '#e1e7ff', 200: '#cbd5ff', 300: '#a8baff', 400: '#7f95ff', 500: '#546aff', 600: '#2b3eff', 700: '#1d4ed8', 800: '#1e2ea3', 900: '#1c2885' },
+                        cyan: { 50: '#ecfeff', 100: '#cffafe', 200: '#a5f3fc', 300: '#67e8f9', 400: '#22d3ee', 500: '#06b6d4', 600: '#0891b2', 700: '#0e7490', 800: '#155e75', 900: '#164e63' },
+                        purple: { 50: '#faf5ff', 100: '#f3e8ff', 200: '#e9d5ff', 300: '#d8b4fe', 400: '#c084fc', 500: '#a855f7', 600: '#9333ea', 700: '#7e22ce', 800: '#6b21a8', 900: '#581c87' }
+                    },
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                        poppins: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <style>
+        * {
+            cursor: none !important;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            overflow-x: hidden;
+            background-color: #030712;
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+        .font-en { font-family: 'Poppins', sans-serif; }
+        
+        /* Glassmorphism Styles */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .dark .glass-card:hover {
+            border-color: rgba(6, 182, 212, 0.4);
+            box-shadow: 0 0 30px rgba(6, 182, 212, 0.15);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .light body {
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .light .glass-card {
+            background: rgba(255, 255, 255, 0.75);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+        }
+        .light .glass-card:hover {
+            border-color: rgba(29, 78, 216, 0.3);
+            box-shadow: 0 10px 40px rgba(29, 78, 216, 0.1);
+        }
+
+        /* Animated Custom Cursor */
+        #custom-cursor {
+            width: 8px;
+            height: 8px;
+            background: #06b6d4;
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none;
+            z-index: 99999;
+            transform: translate(-50%, -50%);
+            transition: width 0.2s, height 0.2s, background-color 0.2s;
+        }
+        #custom-cursor-blur {
+            width: 40px;
+            height: 40px;
+            border: 2px solid rgba(6, 182, 212, 0.4);
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none;
+            z-index: 99998;
+            transform: translate(-50%, -50%);
+            transition: transform 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275), width 0.3s, height 0.3s;
+        }
+        
+        /* Interactive Glowing Gradients */
+        .neon-glow-cyan { text-shadow: 0 0 15px rgba(6, 182, 212, 0.6); }
+        .neon-glow-purple { text-shadow: 0 0 15px rgba(168, 85, 247, 0.6); }
+        
+        /* Dynamic Background Mesh */
+        #cyber-grid {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: linear-gradient(rgba(255,255,255,0.01) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.01) 1px, transparent 1px);
+            background-size: 40px 40px;
+            background-position: center center;
+            z-index: 1;
+            pointer-events: none;
+        }
+        .light #cyber-grid {
+            background-image: linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px);
+        }
+        #particles-js {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        /* Mouse Glow Aura */
+        .mouse-aura {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(29, 78, 216, 0.08) 0%, rgba(168, 85, 247, 0.03) 50%, transparent 100%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* Preloader Animation */
+        .preloader-circle {
+            border-top-color: #06b6d4;
+            animation: spin 1s infinite linear;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Swiper Adjustments */
+        .swiper-pagination-bullet-active {
+            background: #06b6d4 !important;
+            width: 24px !important;
+            border-radius: 4px !important;
+        }
+    </style>
+</head>
+<body class="dark text-gray-100 antialiased overflow-x-hidden selection:bg-cyan-500 selection:text-white">
+
+    <div id="preloader" class="fixed inset-0 bg-gray-950 z-[999999] flex flex-col items-center justify-content-center transition-opacity duration-700">
+        <div class="relative w-24 h-24 mb-4">
+            <div class="absolute inset-0 border-4 border-white/10 rounded-full"></div>
+            <div class="absolute inset-0 border-4 border-transparent preloader-circle rounded-full"></div>
+        </div>
+        <h2 class="text-xl font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 font-en">LOADING ARCHITECTURE...</h2>
+    </div>
+
+    <div id="cyber-grid"></div>
+    <div id="particles-js"></div>
+    <div class="mouse-aura hidden lg:block" id="mouse-glow-aura"></div>
+
+    <div id="custom-cursor" class="hidden lg:block"></div>
+    <div id="custom-cursor-blur" class="hidden lg:block"></div>
+
+    <div class="fixed top-0 right-0 left-0 h-1 bg-gradient-to-r from-royal-600 via-cyan-400 to-purple-500 z-[9999] transform origin-right scale-x-0 transition-transform duration-700" id="scroll-progress"></div>
+
+    <header id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-4 px-4 lg:px-12 backdrop-blur-md bg-transparent">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            
+            <a href="#" class="flex items-center gap-3 group magnetic-btn">
+                <div class="relative w-12 h-12 rounded-full overflow-hidden border-2 border-cyan-500/50 p-0.5 transition-transform duration-500 group-hover:scale-105">
+                    <img src="me.png" alt="م / محمود سعيد" onerror="this.onerror=null; this.src='me.jpg';" class="w-full h-full object-cover rounded-full">
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-md font-bold bg-gradient-to-l from-white to-gray-300 dark:from-white dark:to-gray-400 bg-clip-text text-transparent">م / محمود سعيد</span>
+                    <span class="text-xs text-cyan-400 font-en font-medium tracking-wide">TECH INSTRUCTOR</span>
+                </div>
+            </a>
+
+            <nav class="hidden xl:flex items-center gap-6 text-sm font-semibold">
+                <a href="#hero" class="hover:text-cyan-400 transition-colors duration-300">الرئيسية</a>
+                <a href="#about" class="hover:text-cyan-400 transition-colors duration-300">عن المعلم</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors duration-300">المهارات</a>
+                <a href="#courses" class="hover:text-cyan-400 transition-colors duration-300">المسارات التعليمية</a>
+                <a href="#method" class="hover:text-cyan-400 transition-colors duration-300">أسلوبنا</a>
+                <a href="#timeline" class="hover:text-cyan-400 transition-colors duration-300">المسيرة</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors duration-300">المشاريع</a>
+                <a href="#reviews" class="hover:text-cyan-400 transition-colors duration-300">آراء أولياء الأمور</a>
+                <a href="#faq" class="hover:text-cyan-400 transition-colors duration-300">الأسئلة الشائعة</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2.5 rounded-xl glass-card text-gray-400 hover:text-cyan-400 transition-colors magnetic-btn" title="تبديل المظهر">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:block"></i>
+                </button>
+                
+                <button onclick="sharePlatform()" class="p-2.5 rounded-xl glass-card text-gray-400 hover:text-purple-400 transition-colors magnetic-btn" title="مشاركة الموقع">
+                    <i class="fa-solid fa-share-nodes"></i>
+                </button>
+
+                <button onclick="openReservationModal()" class="hidden md:flex items-center gap-2 bg-gradient-to-r from-royal-600 to-cyan-500 text-white font-bold px-5 py-2.5 rounded-xl shadow-lg hover:shadow-cyan-500/20 hover:scale-[1.02] transition-all duration-300 text-sm magnetic-btn">
+                    <i class="fa-solid fa-calendar-check animate-pulse"></i>
+                    <span>احجز مقعدك الآن</span>
+                </button>
+
+                <button id="mobile-menu-btn" class="xl:hidden p-2.5 rounded-xl glass-card text-gray-300 hover:text-cyan-400 transition-colors">
+                    <i class="fa-solid fa-bars-staggered text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="mobile-drawer" class="fixed inset-y-0 left-0 w-80 max-w-sm bg-gray-950/95 backdrop-blur-xl z-[99999] border-r border-white/10 shadow-2xl transform -translate-x-full transition-transform duration-500 p-6 flex flex-col justify-between">
+        <div>
+            <div class="flex items-center justify-between mb-8">
+                <span class="font-bold text-lg text-cyan-400">قائمة التصفح</span>
+                <button id="mobile-close-btn" class="p-2 text-gray-400 hover:text-white text-xl"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <nav class="flex flex-col gap-4 text-md font-medium">
+                <a href="#hero" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">الرئيسية</a>
+                <a href="#about" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">عن المعلم</a>
+                <a href="#skills" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">المهارات المكتسبة</a>
+                <a href="#courses" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">الدورات التدريبية</a>
+                <a href="#method" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">منهجية التعليم</a>
+                <a href="#timeline" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">المحطات والخبرة</a>
+                <a href="#projects" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">المشاريع البرمجية</a>
+                <a href="#gallery" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">معرض الصور</a>
+                <a href="#reviews" class="mobile-link py-2 border-b border-white/5 hover:text-cyan-400 transition-colors">آراء المتميزين</a>
+            </nav>
+        </div>
+        <div class="flex flex-col gap-3">
+            <button onclick="openReservationModal()" class="w-full text-center bg-gradient-to-r from-royal-600 to-cyan-500 text-white font-bold py-3 rounded-xl shadow-lg">
+                <i class="fa-solid fa-calendar-check ml-2"></i>احجز الآن
+            </button>
+        </div>
+    </div>
+
+    <main class="relative z-10 pt-24">
+
+        <section id="hero" class="min-h-[calc(100vh-6rem)] flex items-center justify-center px-4 py-12 relative overflow-hidden">
+            <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 flex flex-col text-center lg:text-right items-center lg:items-start" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-xs font-bold text-cyan-400 mb-6 border border-cyan-500/20 uppercase tracking-widest animate__animated animate__fadeInDown">
+                        <i class="fa-solid fa-user-shield text-cyan-400"></i> المنصة التعليمية المعتمدة لعلوم التكنولوجيا
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl xl:text-6xl font-black leading-tight mb-4 tracking-tight">
+                        ابنِ مهارات طفلك مع <br class="hidden sm:inline">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-royal-400 via-cyan-400 to-purple-500 neon-glow-cyan">م / محمود سعيد</span>
+                    </h1>
+                    
+                    <div class="h-12 text-lg sm:text-xl md:text-2xl font-semibold text-gray-300 dark:text-gray-400 mb-6 flex items-center gap-2">
+                        <span>خبير متخصص في تدريس</span>
+                        <span id="typed-text" class="text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1"></span>
+                    </div>
+
+                    <p class="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-xl mb-8 leading-relaxed">
+                        نحن لا نلقن الأكواد، بل نصنع العقول المفكرة. برامجنا التعليمية مصممة خصيصاً لطلاب المدارس بمراحلها المختلفة لتأسيسهم في هندسة البرمجيات والذكاء الاصطناعي بخبرة تتجاوز 14 عاماً.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+                        <button onclick="openReservationModal()" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-royal-600 via-cyan-500 to-purple-600 text-white font-bold shadow-2xl hover:shadow-cyan-500/30 hover:scale-[1.03] transition-all duration-300 flex items-center justify-center gap-3 group magnetic-btn">
+                            <span>ابدأ رحلة التميز الآن</span>
+                            <i class="fa-solid fa-arrow-left transition-transform duration-300 group-hover:-translate-x-1"></i>
+                        </button>
+                        <a href="#courses" class="w-full sm:w-auto px-8 py-4 rounded-xl glass-card text-gray-300 hover:text-white font-semibold flex items-center justify-center gap-2 hover:bg-white/10 transition-all duration-300 border border-white/10 magnetic-btn">
+                            <i class="fa-solid fa-laptop-code text-purple-400"></i> تصفح المسارات
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 mt-8 w-full">
+                        <a href="https://mahmoud-saeed-sallam.github.io/Computer-Exam/" target="_blank" class="text-xs font-semibold text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-1.5 glass-card px-3 py-2 rounded-lg">
+                            <i class="fa-solid fa-square-poll-vertical text-cyan-400"></i> منصة الامتحانات البرمجية
+                        </a>
+                        <button onclick="copyPhoneNumber()" class="text-xs font-semibold text-gray-400 hover:text-purple-400 transition-colors flex items-center gap-1.5 glass-card px-3 py-2 rounded-lg">
+                            <i class="fa-solid fa-copy text-purple-400"></i> نسخ رقم الهاتف
+                        </button>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 flex justify-center relative" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-cyan-500/10 via-purple-500/10 to-transparent blur-3xl rounded-full"></div>
+                    <div class="relative w-72 h-72 sm:w-96 sm:h-96 rounded-3xl overflow-hidden glass-card p-3 group border border-white/15 shadow-2xl" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                        <div class="w-full h-full rounded-2xl overflow-hidden relative">
+                            <img src="me.png" alt="م / محمود سعيد" onerror="this.onerror=null; this.src='me.jpg';" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent opacity-80"></div>
+                            
+                            <div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl glass-card border border-white/10 backdrop-blur-md">
+                                <p class="text-xs text-cyan-400 font-bold font-en mb-0.5">FOUNDER & LEAD INSTRUCTOR</p>
+                                <h3 class="font-bold text-sm text-white">م / محمود سعيد سلام</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 px-4 relative z-20">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                    
+                    <div class="glass-card rounded-2xl p-6 text-center" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="w-12 h-12 rounded-xl bg-royal-500/10 text-royal-400 flex items-center justify-center mx-auto mb-3 text-xl"><i class="fa-solid fa-briefcase"></i></div>
+                        <h3 class="text-2xl sm:text-3xl font-black font-en text-white"><span class="counter" data-target="14">0</span>+</h3>
+                        <p class="text-xs sm:text-sm text-gray-400 font-semibold mt-1">عاماً من الخبرة والعطاء</p>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 text-center" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center mx-auto mb-3 text-xl"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3 class="text-2xl sm:text-3xl font-black font-en text-white"><span class="counter" data-target="100">0</span>+</h3>
+                        <p class="text-xs sm:text-sm text-gray-400 font-semibold mt-1">دورة تدريبية متكاملة</p>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 text-center" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mx-auto mb-3 text-xl"><i class="fa-solid fa-code-branch"></i></div>
+                        <h3 class="text-2xl sm:text-3xl font-black font-en text-white"><span class="counter" data-target="18">0</span>+</h3>
+                        <p class="text-xs sm:text-sm text-gray-400 font-semibold mt-1">مشروعاً برمجياً عملاقاً</p>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 text-center" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mx-auto mb-3 text-xl"><i class="fa-solid fa-users"></i></div>
+                        <h3 class="text-2xl sm:text-3xl font-black font-en text-white"><span id="students-counter-val">0</span>+</h3>
+                        <p class="text-xs sm:text-sm text-gray-400 font-semibold mt-1">طالب وطالبة فخورين</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 px-4 relative">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-left">
+                    <div class="inline-block text-sm font-bold text-purple-400 mb-2 uppercase tracking-wider font-en">// VISIONARY INSTRUCTOR</div>
+                    <h2 class="text-3xl sm:text-4xl font-black mb-6">شغف بالتعليم، <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">التزام بالتميز والتمكين المهاراتي</span></h2>
+                    <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+                        بدأت رحلتي التدريسية في عام 2012، مدفوعاً برؤية واضحة لتبسيط وتفكيك مفاهيم التكنولوجيا المعقدة ولغات البرمجة لأجيال المستقبل. على مدار أكثر من 14 عاماً، قمت بتطوير مناهج برمجية مخصصة تناسب وعي وعقول طلاب المدارس بمختلف قدراتهم الإبداعية.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-cyan-500/10 rounded-lg text-cyan-400 mt-1"><i class="fa-solid fa-check"></i></div>
+                            <div>
+                                <h4 class="font-bold text-gray-200 dark:text-white">بناء التفكير المنطقي والخوارزمي</h4>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">التركيز على مهارات حل المشكلات الرياضية والمنطقية قبل صياغة الشيفرات البرمجية.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-purple-500/10 rounded-lg text-purple-400 mt-1"><i class="fa-solid fa-check"></i></div>
+                            <div>
+                                <h4 class="font-bold text-gray-200 dark:text-white">دمج أدوات التكنولوجيا المعاصرة</h4>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">استخدام بيئات محاكاة الذكاء الاصطناعي وتقنيات الحوسبة المتقدمة لضمان مواكبة السوق العالمي.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6" data-aos="fade-right">
+                    <div class="glass-card p-6 rounded-2xl transform hover:-translate-y-2 duration-300 border-r-4 border-r-cyan-500">
+                        <h3 class="text-lg font-bold text-white mb-2">تعليم البرمجة</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">تأسيس برمجى يبدأ من الصفر تماماً عبر بيئات بصرية مثل Scratch وصولاً للغات الكودية المعقدة.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl transform hover:-translate-y-2 duration-300 border-r-4 border-r-purple-500">
+                        <h3 class="text-lg font-bold text-white mb-2">الذكاء الاصطناعي</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">شرح خوارزميات الذكاء الاصطناعي وكيفية توظيف النماذج التوليدية لبناء تطبيقات ذكية متكاملة.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl transform hover:-translate-y-2 duration-300 border-r-4 border-r-royal-500">
+                        <h3 class="text-lg font-bold text-white mb-2">مناهج الـ ICT</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">تغطية شاملة واحترافية لمناهج تكنولوجيا المعلومات والاتصالات لجميع الفئات والصفوف الدراسية.</p>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl transform hover:-translate-y-2 duration-300 border-r-4 border-r-emerald-500">
+                        <h3 class="text-lg font-bold text-white mb-2">الإنتاجية المكتبية</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">تمكين شامل وكامل من حزمة تطبيقات Microsoft Office لضمان الكفاءة الأكاديمية والمهنية المطلقة.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-20 px-4 bg-gray-950/40 backdrop-blur-md">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-xs font-bold text-cyan-400 uppercase tracking-widest font-en">// SKILLS HUB</span>
+                    <h2 class="text-3xl sm:text-4xl font-black mt-2 mb-4">الترسانة التقنية واللغات التدريسية</h2>
+                    <p class="text-sm text-gray-400">مجموعة شاملة ومتكاملة من لغات البرمجة والبرمجيات التي يتم تدريسها واحترافها داخل فصولنا التدريبية المتطورة.</p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+                    
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-brands fa-html5 text-4xl text-orange-500"></i>
+                            <span class="text-xs font-bold font-en bg-orange-500/10 text-orange-400 px-2 py-1 rounded">WEB</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white font-en">HTML5</h3>
+                            <p class="text-xs text-gray-500 mt-1">بناء واستيعاب الهياكل الأساسية لصفحات الويب باحترافية.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-brands fa-css3-alt text-4xl text-blue-500"></i>
+                            <span class="text-xs font-bold font-en bg-blue-500/10 text-blue-400 px-2 py-1 rounded">DESIGN</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white font-en">CSS3</h3>
+                            <p class="text-xs text-gray-500 mt-1">تنسيق وتصميم واجهات الويب العصرية والأنماط التفاعلية.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-brands fa-js text-4xl text-yellow-500"></i>
+                            <span class="text-xs font-bold font-en bg-yellow-500/10 text-yellow-400 px-2 py-1 rounded">LOGIC</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white font-en">JavaScript</h3>
+                            <p class="text-xs text-gray-500 mt-1">إضافة التفاعلية والمحركات الديناميكية للتطبيقات والويب.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-brands fa-python text-4xl text-cyan-400"></i>
+                            <span class="text-xs font-bold font-en bg-cyan-500/10 text-cyan-400 px-2 py-1 rounded">CORE</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white font-en">Python</h3>
+                            <p class="text-xs text-gray-500 mt-1">اللغة الأقوى لتعلم مفاهيم البرمجة والبرامج الحسابية المعقدة.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-4xl font-black font-en text-royal-400">C++</span>
+                            <span class="text-xs font-bold font-en bg-royal-500/10 text-royal-400 px-2 py-1 rounded">SYSTEMS</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white font-en">C++ Programming</h3>
+                            <p class="text-xs text-gray-500 mt-1">فهم معالجة الذاكرة والأداء البرمجي عالي المستوى والممتاز.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-solid fa-shapes text-4xl text-orange-400"></i>
+                            <span class="text-xs font-bold font-en bg-orange-500/10 text-orange-400 px-2 py-1 rounded">KIDS</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white font-en">Scratch</h3>
+                            <p class="text-xs text-gray-500 mt-1">البرمجة المرئية والكتلية لتنمية الفكر المنطقي للأعمار الصغيرة.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-solid fa-brain text-4xl text-purple-500"></i>
+                            <span class="text-xs font-bold font-en bg-purple-500/10 text-purple-400 px-2 py-1 rounded">FUTURE</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white">الذكاء الاصطناعي</h3>
+                            <p class="text-xs text-gray-500 mt-1">فهم تقنيات الـ Machine Learning والشبكات العصبية ببساطة.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-6 rounded-2xl flex flex-col justify-between group relative overflow-hidden" data-aos="zoom-in" data-tilt>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-solid fa-lightbulb text-4xl text-yellow-400"></i>
+                            <span class="text-xs font-bold font-en bg-yellow-500/10 text-yellow-400 px-2 py-1 rounded">ALGORITHMS</span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-white">حل المشكلات البرمجية</h3>
+                            <p class="text-xs text-gray-500 mt-1">التدريب على تحديات ومسابقات برمجية عالمية لبناء عقل عبقري.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-12 bg-white/5 border border-white/10 rounded-3xl p-8">
+                    <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                                <i class="fa-solid fa-briefcase text-cyan-400"></i> محرك الكفاءة المكتبي ومهارات الـ ICT
+                            </h3>
+                            <p class="text-xs text-gray-400 mt-1">حزمة برمجيات Microsoft Office الاحترافية ومناهج الحاسب المعتمدة.</p>
+                        </div>
+                        <span class="text-xs font-bold font-en bg-cyan-500/20 text-cyan-400 px-3 py-1.5 rounded-full">MICROSOFT SUITE</span>
+                    </div>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                        <div class="p-4 bg-gray-900/50 rounded-xl border border-white/5 flex items-center gap-3">
+                            <i class="fa-regular fa-file-excel text-2xl text-emerald-500"></i>
+                            <span class="text-sm font-bold text-gray-300 font-en">Excel</span>
+                        </div>
+                        <div class="p-4 bg-gray-900/50 rounded-xl border border-white/5 flex items-center gap-3">
+                            <i class="fa-regular fa-file-powerpoint text-2xl text-orange-500"></i>
+                            <span class="text-sm font-bold text-gray-300 font-en">PowerPoint</span>
+                        </div>
+                        <div class="p-4 bg-gray-900/50 rounded-xl border border-white/5 flex items-center gap-3">
+                            <i class="fa-regular fa-file-word text-2xl text-blue-500"></i>
+                            <span class="text-sm font-bold text-gray-300 font-en">Word</span>
+                        </div>
+                        <div class="p-4 bg-gray-900/50 rounded-xl border border-white/5 flex items-center gap-3">
+                            <i class="fa-solid fa-database text-2xl text-red-500"></i>
+                            <span class="text-sm font-bold text-gray-300 font-en">Access</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="courses" class="py-20 px-4">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-xs font-bold text-purple-400 uppercase tracking-widest font-en">// PATHWAYS</span>
+                    <h2 class="text-3xl sm:text-4xl font-black mt-2 mb-4">المسارات والصفوف الدراسية المدعومة</h2>
+                    <p class="text-sm text-gray-400">مناهج تعليمية متطورة ومطابقة للمواصفات الأكاديمية والوزارية الحديثة لكل الفئات العمرية.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    
+                    <div class="glass-card rounded-3xl p-8 flex flex-col justify-between border-t-4 border-t-cyan-500 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                        <div>
+                            <div class="text-xs font-bold text-cyan-400 mb-2 uppercase font-en tracking-wider">STAGE 01</div>
+                            <h3 class="text-2xl font-black text-white mb-4">المرحلة الابتدائية</h3>
+                            <p class="text-sm text-gray-400 leading-relaxed mb-6">تبسيط رائع لمفاهيم تكنولوجيا المعلومات والاتصالات (ICT) مع دمج ورش تفاعلية برمجية بصرية تناسب عقول الأطفال لإنشاء الألعاب والقصص التفاعلية.</p>
+                            <ul class="space-y-3 text-sm text-gray-300 border-t border-white/10 pt-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400 text-xs"></i> منهج الـ ICT المطور كاملاً</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400 text-xs"></i> مبادئ البرمجة المرئية بـ Scratch</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400 text-xs"></i> التعامل الآمن والسليم مع الإنترنت</li>
+                            </ul>
+                        </div>
+                        <button onclick="openReservationModal('المرحلة الابتدائية')" class="w-full mt-8 bg-white/5 border border-white/10 text-white font-bold py-3.5 rounded-xl hover:bg-cyan-500 hover:border-cyan-500 transition-all duration-300">تسجيل وتأكيد حجز</button>
+                    </div>
+
+                    <div class="glass-card rounded-3xl p-8 flex flex-col justify-between border-t-4 border-t-purple-500 relative overflow-hidden scale-105 shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                        <div class="absolute top-4 left-4 bg-purple-500 text-white font-bold text-xs px-3 py-1 rounded-full uppercase tracking-widest font-en">POPULAR</div>
+                        <div>
+                            <div class="text-xs font-bold text-purple-400 mb-2 uppercase font-en tracking-wider">STAGE 02</div>
+                            <h3 class="text-2xl font-black text-white mb-4">المرحلة الإعدادية</h3>
+                            <p class="text-sm text-gray-400 leading-relaxed mb-6">التحول التدريجي من الكتل البرمجية البصرية إلى الأكواد الحقيقية المكتوبة، وفهم البنية الهيكلية لشبكات الويب وبناء أولى صفحاتهم الإلكترونية المستقلة.</p>
+                            <ul class="space-y-3 text-sm text-gray-300 border-t border-white/10 pt-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-purple-400 text-xs"></i> تأسيس قوي في لغات HTML5 & CSS3</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-purple-400 text-xs"></i> التفكير المنطقي وهيكلة البيانات المبسطة</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-purple-400 text-xs"></i> شرح كامل ومثالي لمنهج الحاسب الآلي</li>
+                            </ul>
+                        </div>
+                        <button onclick="openReservationModal('المرحلة الإعدادية')" class="w-full mt-8 bg-gradient-to-r from-purple-600 to-royal-600 text-white font-bold py-3.5 rounded-xl hover:opacity-95 transition-all duration-300 shadow-lg">تسجيل وتأكيد حجز</button>
+                    </div>
+
+                    <div class="glass-card rounded-3xl p-8 flex flex-col justify-between border-t-4 border-t-royal-500 relative overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                        <div>
+                            <div class="text-xs font-bold text-royal-400 mb-2 uppercase font-en tracking-wider">STAGE 03</div>
+                            <h3 class="text-2xl font-black text-white mb-4">المرحلة الثانوية</h3>
+                            <p class="text-sm text-gray-400 leading-relaxed mb-6">الاحتراف الحقيقي والمطلق. إعداد الطلاب ليكونوا مهندسي برمجيات مستقبليين من خلال دراسة معمقة في لغات بايثون وسي بلس بلس، وفهم الذكاء الاصطناعي.</p>
+                            <ul class="space-y-3 text-sm text-gray-300 border-t border-white/10 pt-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-royal-400 text-xs"></i> احتراف بايثون وتطبيقات الذكاء الاصطناعي</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-royal-400 text-xs"></i> البرمجة كائنية التوجه Object Oriented</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-royal-400 text-xs"></i> حل المشكلات البرمجية المعقدة بمهارة</li>
+                            </ul>
+                        </div>
+                        <button onclick="openReservationModal('المرحلة الثانوية')" class="w-full mt-8 bg-white/5 border border-white/10 text-white font-bold py-3.5 rounded-xl hover:bg-royal-600 hover:border-royal-600 transition-all duration-300">تسجيل وتأكيد حجز</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="method" class="py-20 px-4 bg-gray-950/20">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-black mb-4">الأسلوب المنهجي والتعليمي الفريد</h2>
+                    <p class="text-sm text-gray-400">طريقة تدريس فريدة تضمن استيعاب الطالب للمادة بنسبة 100% وتحويل الشرح النظري إلى ابتكارات ومشاريع عملية ملموسة.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <div class="glass-card p-8 rounded-2xl relative" data-aos="fade-up" data-aos-delay="100">
+                        <div class="absolute -top-6 right-6 w-12 h-12 rounded-xl bg-cyan-500 text-white font-bold flex items-center justify-center text-xl font-en shadow-lg shadow-cyan-500/20">01</div>
+                        <h3 class="text-xl font-bold text-white mb-3 mt-2">شرح تفاعلي مباشر</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">استخدام أحدث تقنيات العرض البصري والسبورات الذكية لتبسيط وتوضيح آليات عمل الأكواد البرمجية والخوارزميات بشكل رائع وممتاز.</p>
+                    </div>
+
+                    <div class="glass-card p-8 rounded-2xl relative" data-aos="fade-up" data-aos-delay="200">
+                        <div class="absolute -top-6 right-6 w-12 h-12 rounded-xl bg-purple-500 text-white font-bold flex items-center justify-center text-xl font-en shadow-lg shadow-purple-500/20">02</div>
+                        <h3 class="text-xl font-bold text-white mb-3 mt-2">تطبيقات ومشاريع عملية</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">يقوم كل طالب في نهاية الحصة بكتابة الكود وتطبيقه بنفسه، مما يضمن ثبات المعلومة وتنمية حس الابتكار البرمجي المستقل.</p>
+                    </div>
+
+                    <div class="glass-card p-8 rounded-2xl relative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="absolute -top-6 right-6 w-12 h-12 rounded-xl bg-royal-500 text-white font-bold flex items-center justify-center text-xl font-en shadow-lg shadow-royal-500/20">03</div>
+                        <h3 class="text-xl font-bold text-white mb-3 mt-2">متابعة مستمرة وامتحانات</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">تقارير دورية لأولياء الأمور عبر منصتنا المخصصة للامتحانات مع رصد كامل لدرجات ومستويات الطلاب أسبوعياً وبانتظام.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="py-20 px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-xs font-bold text-cyan-400 uppercase tracking-widest font-en">// JOURNEY</span>
+                    <h2 class="text-3xl sm:text-4xl font-black mt-2 mb-4">مسيرة العطاء والخبرة الممتدة</h2>
+                    <p class="text-sm text-gray-400">محطات بارزة في رحلة م / محمود سعيد التعليمية منذ عام 2012 وحتى اليوم.</p>
+                </div>
+
+                <div class="relative border-r-2 border-gray-800 dark:border-gray-800 pr-8 mr-4 space-y-12">
+                    
+                    <div class="relative" data-aos="fade-right">
+                        <div class="absolute -right-[41px] top-1.5 w-5 h-5 rounded-full bg-cyan-500 border-4 border-gray-950"></div>
+                        <span class="text-xs font-bold font-en text-cyan-400 bg-cyan-500/10 px-2 py-1 rounded">2012 - 2015</span>
+                        <h3 class="text-lg font-bold text-white mt-2">انطلاق الشرارة الأولى وتأسيس المنهجية</h3>
+                        <p class="text-xs text-gray-400 mt-1 leading-relaxed">بدء تدريس مناهج علوم الحاسب والبرمجيات الأساسية، والتركيز الفائق على تطوير مناهج مبسطة للمراحل التعليمية المختلفة بالمدارس.</p>
+                    </div>
+
+                    <div class="relative" data-aos="fade-right">
+                        <div class="absolute -right-[41px] top-1.5 w-5 h-5 rounded-full bg-purple-500 border-4 border-gray-950"></div>
+                        <span class="text-xs font-bold font-en text-purple-400 bg-purple-500/10 px-2 py-1 rounded">2016 - 2020</span>
+                        <h3 class="text-lg font-bold text-white mt-2">التوسع واعتماد مناهج الـ ICT المتقدمة</h3>
+                        <p class="text-xs text-gray-400 mt-1 leading-relaxed">تخريج أكثر من 50 دفعة من الطلاب المتميزين، وبناء نظام تعليمي متطور يدمج لغات متقدمة مثل بايثون لحل المشكلات البرمجية الكبرى.</p>
+                    </div>
+
+                    <div class="relative" data-aos="fade-right">
+                        <div class="absolute -right-[41px] top-1.5 w-5 h-5 rounded-full bg-royal-500 border-4 border-gray-950"></div>
+                        <span class="text-xs font-bold font-en text-royal-400 bg-royal-500/10 px-2 py-1 rounded">2021 - 2026</span>
+                        <h3 class="text-lg font-bold text-white mt-2">ثورة الذكاء الاصطناعي والمنصات الرقمية</h3>
+                        <p class="text-xs text-gray-400 mt-1 leading-relaxed">تطوير منصة الامتحانات الإلكترونية المخصصة، ودمج مسارات تعلم الآلة والشبكات العصبية ضمن المناهج لضمان بناء رواد حقيقيين للمستقبل الرقمي.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20 px-4 bg-gray-950/40">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-black mb-4">نماذج من مشاريع الطلاب والأنظمة البرمجية</h2>
+                    <p class="text-sm text-gray-400">فخورون بالمخرجات البرمجية التي يقوم طلابنا بابتكارها وصياغة أكوادها بالكامل داخل كورساتنا.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                    
+                    <div class="glass-card rounded-2xl p-6 relative overflow-hidden" data-aos="zoom-in">
+                        <div class="w-full h-40 bg-gradient-to-br from-royal-900 to-purple-950 rounded-xl mb-4 flex items-center justify-center border border-white/5">
+                            <i class="fa-solid fa-robot text-5xl text-purple-400 animate-bounce"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">تطبيق المساعد الذكي الصغير</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed mb-4">مشروع متميز تم بناؤه بواسطة طلاب المرحلة الثانوية باستخدام لغة بايثون للتعرف على الأصوات وتنفيذ الأوامر الذكية.</p>
+                        <div class="flex gap-2">
+                            <span class="text-[10px] font-bold font-en bg-cyan-500/10 text-cyan-400 px-2 py-1 rounded">PYTHON</span>
+                            <span class="text-[10px] font-bold font-en bg-purple-500/10 text-purple-400 px-2 py-1 rounded">AI MODELS</span>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 relative overflow-hidden" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="w-full h-40 bg-gradient-to-br from-cyan-900 to-royal-950 rounded-xl mb-4 flex items-center justify-center border border-white/5">
+                            <i class="fa-solid fa-gamepad text-5xl text-cyan-400 animate-pulse"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">لعبة المتاهة الفضائية المتقدمة</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed mb-4">مشروع رائع تم تنفيذه بالكامل بواسطة طلاب المرحلة الابتدائية عبر سكراتش، مع بناء خوارزمية تتبع ذكية للأعداء.</p>
+                        <div class="flex gap-2">
+                            <span class="text-[10px] font-bold font-en bg-orange-500/10 text-orange-400 px-2 py-1 rounded">SCRATCH</span>
+                            <span class="text-[10px] font-bold font-en bg-yellow-500/10 text-yellow-400 px-2 py-1 rounded">GAME DEV</span>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 relative overflow-hidden" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="w-full h-40 bg-gradient-to-br from-gray-900 to-cyan-950 rounded-xl mb-4 flex items-center justify-center border border-white/5">
+                            <i class="fa-solid fa-globe text-5xl text-emerald-400"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">منصة المحفظة الإلكترونية التجريبية</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed mb-4">موقع ويب متكامل تم تصميمه وبرمجته بواسطة طلاب المرحلة الإعدادية باستخدام هياكل الويب الحديثة بمرونة تامة.</p>
+                        <div class="flex gap-2">
+                            <span class="text-[10px] font-bold font-en bg-blue-500/10 text-blue-400 px-2 py-1 rounded">HTML5</span>
+                            <span class="text-[10px] font-bold font-en bg-indigo-500/10 text-indigo-400 px-2 py-1 rounded">CSS3 MATRIX</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="py-20 px-4">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-xs font-bold text-purple-400 uppercase tracking-widest font-en">// CAPTURES</span>
+                    <h2 class="text-3xl sm:text-4xl font-black mt-2 mb-4">معرض لقطات التميز والفعاليات</h2>
+                    <p class="text-sm text-gray-400">توثيق حي ومباشر لفعاليات الكورسات، تكريم المتميزين، وداخل قاعات المختبرات البرمجية الذكية لدينا.</p>
+                </div>
+
+                <div id="dynamic-gallery-container" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                    </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="py-20 px-4 bg-gray-950/20">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-black mb-4">ماذا يقول أولياء الأمور وطلابنا؟</h2>
+                    <p class="text-sm text-gray-400">آراء نفتخر ونعتز بها، تعكس مدى التزامنا بتقديم أعلى درجات الجودة التعليمية والتربوية.</p>
+                </div>
+
+                <div class="swiper testimonials-swiper p-4">
+                    <div class="swiper-wrapper" id="reviews-swiper-wrapper">
+                        </div>
+                    <div class="swiper-pagination mt-8 !relative"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-20 px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-black mb-4">الأسئلة الشائعة والاستفسارات</h2>
+                    <p class="text-sm text-gray-400">إجابات شاملة ومباشرة على أكثر الأسئلة الشائعة التي تدور في أذهان أولياء الأمور والطلاب.</p>
+                </div>
+
+                <div class="space-y-4">
+                    
+                    <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300">
+                        <button class="w-full p-6 text-right font-bold text-white flex items-center justify-between gap-4 faq-trigger">
+                            <span>هل يحتاج الطالب لأي معرفة مسبقة بالبرمجة قبل الانضمام؟</span>
+                            <i class="fa-solid fa-chevron-down transition-transform duration-300 text-cyan-400"></i>
+                        </button>
+                        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <p class="p-6 pt-0 text-sm text-gray-400 border-t border-white/5 leading-relaxed">
+                                لا، كافة المسارات والدورات البرمجية تبدأ من الصفر تماماً. نحن نقوم بتأسيس الطلاب خطوة بخطوة بناءً على فئتهم العمرية واستيعابهم العقلي دون أي تعقيد.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300">
+                        <button class="w-full p-6 text-right font-bold text-white flex items-center justify-between gap-4 faq-trigger">
+                            <span>ما هي الفئات العمرية المسموح لها بالالتحاق بالمسارات البرمجية؟</span>
+                            <i class="fa-solid fa-chevron-down transition-transform duration-300 text-cyan-400"></i>
+                        </button>
+                        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <p class="p-6 pt-0 text-sm text-gray-400 border-t border-white/5 leading-relaxed">
+                                نرحب بكافة الطلاب بدءاً من المرحلة الابتدائية (من عمر 8 سنوات) وحتى طلاب المرحلة الثانوية، حيث نملك فصولاً مخصصة ومناهج متوافقة لكل مرحلة سنية بشكل دقيق.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300">
+                        <button class="w-full p-6 text-right font-bold text-white flex items-center justify-between gap-4 faq-trigger">
+                            <span>كيف يتمكن ولي الأمر من متابعة مستوى ودرجات ابنه بانتظام؟</span>
+                            <i class="fa-solid fa-chevron-down transition-transform duration-300 text-cyan-400"></i>
+                        </button>
+                        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <p class="p-6 pt-0 text-sm text-gray-400 border-t border-white/5 leading-relaxed">
+                                نوفر منصة امتحانات مخصصة تتيح للطلاب إجراء التحديات الدورية، ونرسل تقارير أداء دورية وشاملة لولي الأمر عبر الواتساب لإحاطته بمستوى تقدم الطالب باستمرار.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 px-4 bg-gray-950/40 border-t border-white/5">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <div class="lg:col-span-5 flex flex-col justify-between" data-aos="fade-left">
+                    <div>
+                        <h2 class="text-3xl sm:text-4xl font-black text-white mb-4">دعنا نساهم في <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">صياغة مستقبل ابنك البرمجي</span></h2>
+                        <p class="text-sm text-gray-400 leading-relaxed mb-8">تواصل معنا الآن للاستفسار عن مواعيد المجموعات القادمة، أماكن الانعقاد، وتفاصيل المناهج المخصصة.</p>
+                        
+                        <div class="space-y-4">
+                            <a href="tel:01020281736" class="flex items-center gap-4 p-4 rounded-xl glass-card text-gray-300 hover:text-white transition-colors">
+                                <div class="w-10 h-10 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-lg"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <p class="text-[10px] text-gray-500 uppercase font-en">Direct Hotline</p>
+                                    <p class="text-base font-bold font-en">01020281736</p>
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/Motmyez" target="_blank" class="flex items-center gap-4 p-4 rounded-xl glass-card text-gray-300 hover:text-white transition-colors">
+                                <div class="w-10 h-10 rounded-lg bg-blue-600/10 text-blue-500 flex items-center justify-center text-lg"><i class="fa-brands fa-facebook"></i></div>
+                                <div>
+                                    <p class="text-[10px] text-gray-500 uppercase font-en">Official Page</p>
+                                    <p class="text-base font-bold">المتميز - م / محمود سعيد</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7" data-aos="fade-right">
+                    <div class="glass-card rounded-3xl p-8 border border-white/10 relative">
+                        <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2"><i class="fa-solid fa-envelope-open-text text-cyan-400"></i> نموذج استفسار سريع ومباشر</h3>
+                        <form id="direct-contact-form" onsubmit="handleDirectContact(event)" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <input type="text" id="contact-name" placeholder="اسم الطالب أو ولي الأمر كاملاً" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors">
+                                <input type="tel" id="contact-phone" placeholder="رقم هاتف الواتساب النشط" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors text-right">
+                            </div>
+                            <textarea id="contact-message" rows="4" placeholder="اكتب استفسارك أو الرسالة التي تود إيصالها للمهندس محمود..." required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors"></textarea>
+                            <button type="submit" class="w-full bg-gradient-to-r from-royal-600 to-cyan-500 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-cyan-500/20 transition-all duration-300">إرسال الاستفسار عبر الواتساب</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-950 border-t border-white/10 py-12 px-4 relative z-30">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-right">
+            <div>
+                <span class="font-bold text-lg text-white">م / محمود سعيد</span>
+                <p class="text-xs text-gray-500 mt-1">بناء وتمكين جيل المستقبل رقمياً وبرمجياً بكل كفاءة وثقة منذ 2012.</p>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <a href="https://www.facebook.com/Motmyez" target="_blank" class="w-10 h-10 rounded-xl glass-card flex items-center justify-center text-gray-400 hover:text-blue-500 transition-colors text-md"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://mahmoud-saeed-sallam.github.io/Computer-Exam/" target="_blank" class="w-10 h-10 rounded-xl glass-card flex items-center justify-center text-gray-400 hover:text-cyan-400 transition-colors text-md" title="منصة الامتحانات"><i class="fa-solid fa-square-poll-vertical"></i></a>
+                <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="w-10 h-10 rounded-xl glass-card flex items-center justify-center text-gray-400 hover:text-purple-400 transition-colors text-md" title="العودة للأعلى"><i class="fa-solid fa-chevron-up"></i></button>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto border-t border-white/5 mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-600">
+            <p>© 2026 جميع الحقوق محفوظة للمهندس محمود سعيد.</p>
+            <p class="font-en">DESIGNED BY ULTRA-PREMIUM ARCHITECTS</p>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-6 right-6 z-[9999] flex flex-col gap-3">
+        <button onclick="openReservationModal()" class="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition-transform duration-300 relative group animate-pulse" title="احجز مقعدك الآن عبر واتساب">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="absolute right-16 bg-gray-950 text-white font-bold text-xs px-3 py-1.5 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-xl border border-white/10">احجز مقعدك الآن!</span>
+        </button>
+        <a href="tel:01020281736" class="w-14 h-14 rounded-full bg-royal-600 text-white flex items-center justify-center text-xl shadow-2xl hover:scale-110 transition-transform duration-300 relative group" title="اتصل بنا هاتفياً">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+
+    <div id="reservation-modal" class="fixed inset-0 z-[999999] bg-gray-950/80 backdrop-blur-xl opacity-0 pointer-events-none transition-opacity duration-500 flex items-center justify-center p-4">
+        <div class="glass-card w-full max-w-xl rounded-3xl p-6 md:p-8 relative shadow-2xl transform scale-95 transition-transform duration-500 max-h-[95vh] overflow-y-auto" id="modal-container-card">
+            
+            <button onclick="closeReservationModal()" class="absolute top-6 left-6 text-gray-400 hover:text-white text-xl transition-colors"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="mb-6">
+                <h3 class="text-2xl font-black text-white flex items-center gap-2"><i class="fa-brands fa-whatsapp text-emerald-400"></i> نموذج حجز مقعد كورس متميز</h3>
+                <p class="text-xs text-gray-400 mt-1">برجاء تعبئة البيانات المطلوبة بدقة لتوليد رسالة الحجز التلقائية وإرسالها للمهندس مباشرة.</p>
+            </div>
+
+            <form id="whatsapp-reservation-form" onsubmit="executeReservationRoute(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1.5">اسم الطالب ثلاثي أو رباعي *</label>
+                    <input type="text" id="form-name" required placeholder="اكتب اسم الطالب هنا" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors">
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-300 mb-1.5">رقم هاتف الطالب أو ولي الأمر *</label>
+                        <input type="tel" id="form-phone" required placeholder="رقم الهاتف للتواصل" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors text-right">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-300 mb-1.5">المحافظة *</label>
+                        <input type="text" id="form-gov" required placeholder="مثال: القاهرة، الجيزة" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-300 mb-1.5">المنطقة السكنية بالتفصيل *</label>
+                        <input type="text" id="form-area" required placeholder="اسم المنطقة أو الحي الحركي" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-300 mb-1.5">المرحلة التعليمية الحالية *</label>
+                        <select id="form-stage" onchange="adjustGradeOptions()" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors text-right">
+                            <option value="" class="bg-gray-950">اختر المرحلة الدراسية</option>
+                            <option value="الابتدائية" class="bg-gray-950">المرحلة الابتدائية</option>
+                            <option value="الإعدادية" class="bg-gray-950">المرحلة الإعدادية</option>
+                            <option value="الثانوية" class="bg-gray-950">المرحلة الثانوية</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1.5">الصف الدراسي الدقيق *</label>
+                    <select id="form-grade" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors text-right">
+                        <option value="" class="bg-gray-950">يرجى اختيار المرحلة أولاً</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1.5">رسالة إضافية أو ملاحظات خاصة (اختياري)</label>
+                    <textarea id="form-msg" rows="2" placeholder="أي استفسار إضافي تود ذكره..." class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500 transition-colors"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-emerald-600 via-teal-500 to-cyan-600 text-white font-bold py-4 rounded-xl shadow-xl flex items-center justify-center gap-2 text-md">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> تأكيد الحجز وفتح الواتساب التلقائي
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div id="lightbox-modal" class="fixed inset-0 z-[9999999] bg-gray-950/95 backdrop-blur-2xl opacity-0 pointer-events-none transition-opacity duration-500 flex flex-col items-center justify-center p-4" onclick="closeLightbox()">
+        <button class="absolute top-6 left-6 text-gray-400 hover:text-white text-2xl" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
+        <div class="max-w-4xl max-h-[80vh] w-full h-full flex items-center justify-center p-2" onclick="event.stopPropagation()">
+            <img id="lightbox-target-img" src="" alt="Premium Preview" class="max-w-full max-h-full object-contain rounded-xl shadow-2xl border border-white/10">
+        </div>
+        <p id="lightbox-caption" class="text-xs text-gray-400 font-semibold mt-4 tracking-widest font-en uppercase"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+    <script>
+        // EDITABLE TOTAL STUDENTS VALUE VARIABLE
+        const totalStudentsValue = 1840;
+
+        // EDITABLE TESTIMONIALS SLIDER DATABASE SYSTEM
+        const parentReviewsData = [
+            { name: "أحمد عبد الله (ولي أمر)", role: "والد الطالب زياد - الصف الأول الثانوي", content: "المهندس محمود ليس مجرد معلم حاسب آلي، بل هو موجه وقدوة حقيقية. ابني تمكن من استيعاب لغة بايثون وبناء أول تطبيق ذكي له في غضون شهور معدودة بفضل أسلوبه المتميز والفريد.", rating: 5 },
+            { name: "منى الدمرداش (أوم طالبة)", role: "والدة الطالبة حنين - الصف السادس الابتدائي", content: "كانت ابنتي تعاني من صعوبة بالغة في فهم تفاصيل وحصص منهج الـ ICT المطور، ولكن مع طريقة الشرح التفاعلية التي يقدمها مستر محمود، أصبحت المادة هي المفضلة لديها تماماً وحققت الدرجة النهائية.", rating: 5 },
+            { name: "د / مصطفى الهواري (ولي أمر)", role: "والد الطالب عمر - الصف الثاني الإعدادي", content: "الالتزام الدقيق والمتابعة الأسبوعية والامتحانات الدورية جعلتنا كأولياء أمور مطمئنين تماماً لرحلة أولادنا التقنية. صياغة وتصميم مشاريع الويب حرك شغف عمر نحو مستقبل الهندسة باحتراف.", rating: 5 }
+        ];
+
+        // 1-50 STATIC GALLERY IMAGES NAMES ARRAY DATA SYSTEM
+        const galleryImages = [];
+        for (let i = 1; i <= 50; i++) {
+            galleryImages.push(`${i}.png`);
+        }
+
+        // Initialize Applications Upon DOM Content Execution Loop
+        document.addEventListener("DOMContentLoaded", function() {
+            initPreloader();
+            initCustomCursor();
+            initParticlesEngine();
+            initTypedSequence();
+            initAOSLibrary();
+            initSwiperEngine();
+            initCountAnimations();
+            buildDynamicGalleryGrid();
+            initFaqAccordion();
+            initThemeSystem();
+            initNavbarTracking();
+            initMobileDrawerSystem();
+            initMouseGlowAura();
+        });
+
+        // 1. Preloader Fadeout Utility Logic
+        function initPreloader() {
+            setTimeout(() => {
+                const loader = document.getElementById("preloader");
+                if (loader) {
+                    loader.classList.add("opacity-0");
+                    setTimeout(() => loader.remove(), 700);
+                }
+            }, 1200);
+        }
+
+        // 2. Custom Cursor Fluid Tracking Layout Function
+        function initCustomCursor() {
+            const cursor = document.getElementById("custom-cursor");
+            const blur = document.getElementById("custom-cursor-blur");
+            if (!cursor || !blur) return;
+
+            document.addEventListener("mousemove", (e) => {
+                cursor.style.left = e.clientX + "px";
+                cursor.style.top = e.clientY + "px";
+                
+                blur.style.left = e.clientX + "px";
+                blur.style.top = e.clientY + "px";
+            });
+
+            // Interactive expandable state hooks upon targeting dynamic hover actions
+            const triggerTags = document.querySelectorAll("a, button, select, input, textarea, .faq-trigger");
+            triggerTags.forEach(el => {
+                el.addEventListener("mouseenter", () => {
+                    cursor.style.transform = "translate(-50%, -50%) scale(2.5)";
+                    cursor.style.backgroundColor = "#a855f7";
+                    blur.style.width = "60px";
+                    blur.style.height = "60px";
+                    blur.style.borderColor = "rgba(168, 85, 247, 0.6)";
+                });
+                el.addEventListener("mouseleave", () => {
+                    cursor.style.transform = "translate(-50%, -50%) scale(1)";
+                    cursor.style.backgroundColor = "#06b6d4";
+                    blur.style.width = "40px";
+                    blur.style.height = "40px";
+                    blur.style.borderColor = "rgba(6, 182, 212, 0.4)";
+                });
+            });
+        }
+
+        // 3. Mouse Glowing Tech Aura Backdrop Follower Function
+        function initMouseGlowAura() {
+            const aura = document.getElementById("mouse-glow-aura");
+            if (!aura) return;
+            document.addEventListener("mousemove", (e) => {
+                aura.style.left = e.clientX + "px";
+                aura.style.top = e.clientY + "px";
+            });
+        }
+
+        // 4. Advanced Particles.js Futuristic Cyber Grid Config
+        function initParticlesEngine() {
+            if (typeof particlesJS !== "undefined") {
+                particlesJS("particles-js", {
+                    "particles": {
+                        "number": { "value": 50, "density": { "enable": true, "value_area": 800 } },
+                        "color": { "value": ["#06b6d4", "#a855f7", "#1d4ed8"] },
+                        "shape": { "type": "circle" },
+                        "opacity": { "value": 0.3, "random": true },
+                        "size": { "value": 3, "random": true },
+                        "line_linked": { "enable": true, "distance": 150, "color": "#06b6d4", "opacity": 0.08, "width": 1 },
+                        "move": { "enable": true, "speed": 1.5, "direction": "none", "random": true, "straight": false, "out_mode": "out" }
+                    },
+                    "interactivity": {
+                        "detect_on": "canvas",
+                        "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": false } },
+                        "modes": { "grab": { "distance": 180, "line_linked": { "opacity": 0.2 } } }
+                    },
+                    "retina_detect": true
+                });
+            }
+        }
+
+        // 5. Intelligent Typed.js Matrix Flow Execution Sequence
+        function initTypedSequence() {
+            if (typeof Typed !== "undefined") {
+                new Typed("#typed-text", {
+                    strings: [
+                        "لغة البرمجة بايثون (Python)",
+                        "لغة السي بلس بلس (C++)",
+                        "تقنيات الذكاء الاصطناعي (AI)",
+                        "منهج تكنولوجيا الـ ICT",
+                        "حل المشكلات والبرمجة الكتلية"
+                    ],
+                    typeSpeed: 60,
+                    backSpeed: 30,
+                    backDelay: 2000,
+                    loop: true,
+                    rtl: true
+                });
+            }
+        }
+
+        // 6. AOS System Initialization Routing Routine
+        function initAOSLibrary() {
+            if (typeof AOS !== "undefined") {
+                AOS.init({ duration: 1000, once: true, offset: 50 });
+            }
+        }
+
+        // 7. Swiper.js Engine Custom Loader Framework Implementation
+        function initSwiperEngine() {
+            const swiperWrapper = document.getElementById("reviews-swiper-wrapper");
+            if (!swiperWrapper) return;
+
+            // Render testimonials structural list array loops cleanly
+            parentReviewsData.forEach(item => {
+                let ratingStars = '';
+                for (let s = 0; s < item.rating; s++) {
+                    ratingStars += '<i class="fa-solid fa-star text-amber-400 text-xs"></i>';
+                }
+                swiperWrapper.innerHTML += `
+                    <div class="swiper-slide h-auto">
+                        <div class="glass-card p-6 md:p-8 rounded-3xl h-full flex flex-col justify-between border border-white/5 relative">
+                            <i class="fa-solid fa-quote-left text-4xl text-cyan-500/10 absolute top-6 left-6"></i>
+                            <div>
+                                <div class="flex gap-1 mb-4">${ratingStars}</div>
+                                <p class="text-sm md:text-base text-gray-300 leading-relaxed italic mb-6">"${item.content}"</p>
+                            </div>
+                            <div class="flex items-center gap-3 border-t border-white/5 pt-4">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-cyan-500 to-purple-500 flex items-center justify-center font-bold text-white text-sm font-en">${item.name.charAt(0)}</div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-white">${item.name}</h4>
+                                    <p class="text-[11px] text-gray-500 mt-0.5">${item.role}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            if (typeof Swiper !== "undefined") {
+                new Swiper(".testimonials-swiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 24,
+                    pagination: { el: ".swiper-pagination", clickable: true },
+                    breakpoints: { 768: { slidesPerView: 2 } },
+                    autoplay: { delay: 4000, disableOnInteraction: false }
+                });
+            }
+        }
+
+        // 8. Core Numbers Dynamic Counting Logic Engine via GSAP ScrollTrigger
+        function initCountAnimations() {
+            // Setup static layout manual insertion counter values cleanly
+            document.getElementById("students-counter-val").innerText = totalStudentsValue;
+            document.getElementById("students-counter-val").setAttribute("data-target", totalStudentsValue);
+
+            if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
+                gsap.registerPlugin(ScrollTrigger);
+                
+                document.querySelectorAll(".counter, #students-counter-val").forEach(counter => {
+                    const target = parseInt(counter.getAttribute("data-target"), 10);
+                    gsap.fromTo(counter, { textContent: 0 }, {
+                        textContent: target,
+                        duration: 2,
+                        ease: "power2.out",
+                        snap: { textContent: 1 },
+                        scrollTrigger: {
+                            trigger: counter,
+                            start: "top 90%",
+                            toggleActions: "play none none none"
+                        }
+                    });
+                });
+            }
+        }
+
+        // 9. Interactive Modular Image Gallery Creator Array Engine Loop Implementation
+        function buildDynamicGalleryGrid() {
+            const container = document.getElementById("dynamic-gallery-container");
+            if (!container) return;
+
+            galleryImages.forEach(imgName => {
+                const card = document.createElement("div");
+                card.className = "glass-card rounded-xl overflow-hidden aspect-video relative group border border-white/5 shadow-md cursor-pointer transition-transform duration-300 hover:scale-[1.02]";
+                
+                // Native hide mechanism upon failed transmission loops via inline direct execution tags
+                card.innerHTML = `
+                    <img src="${imgName}" loading="lazy" alt="لقطة من الفعاليات والكورسات المتميزة" 
+                         onerror="this.closest('.glass-card').style.display='none';" 
+                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                         onclick="openLightbox('${imgName}')">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3 pointer-events-none">
+                        <span class="text-[10px] font-bold text-cyan-400 font-en tracking-wider uppercase flex items-center gap-1"><i class="fa-solid fa-expand"></i> CLICK TO EXPAND</span>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // 10. Lightweight Premium Lightbox Dialog Matrix Routing Systems
+        function openLightbox(src) {
+            const modal = document.getElementById("lightbox-modal");
+            const img = document.getElementById("lightbox-target-img");
+            const caption = document.getElementById("lightbox-caption");
+            if (!modal || !img) return;
+
+            img.src = src;
+            caption.innerText = `CAPTURE SYSTEM : ${src}`;
+            modal.classList.remove("pointer-events-none", "opacity-0");
+            modal.classList.add("opacity-100");
+        }
+        function closeLightbox() {
+            const modal = document.getElementById("lightbox-modal");
+            if (modal) {
+                modal.classList.remove("opacity-100");
+                modal.classList.add("pointer-events-none", "opacity-0");
+            }
+        }
+
+        // 11. Accessible Rich FAQ Accordion Dropdown Functions
+        function initFaqAccordion() {
+            document.querySelectorAll(".faq-trigger").forEach(btn => {
+                btn.addEventListener("click", function() {
+                    const parent = this.closest(".glass-card");
+                    const content = parent.querySelector(".faq-content");
+                    const icon = this.querySelector("i");
+                    
+                    document.querySelectorAll(".faq-content").forEach(c => {
+                        if (c !== content) {
+                            c.style.maxHeight = null;
+                            c.closest(".glass-card").querySelector("i").style.transform = "rotate(0deg)";
+                        }
+                    });
+
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                        icon.style.transform = "rotate(0deg)";
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                        icon.style.transform = "rotate(180deg)";
+                    }
+                });
+            });
+        }
+
+        // 12. Cross-Device Fluid Multi-Theme Management Layout Engine Switcher
+        function initThemeSystem() {
+            const toggle = document.getElementById("theme-toggle");
+            const html = document.documentElement;
+            if (!toggle) return;
+
+            toggle.addEventListener("click", () => {
+                if (html.classList.contains("dark")) {
+                    html.classList.remove("dark");
+                    html.classList.add("light");
+                    localStorage.setItem("theme", "light");
+                } else {
+                    html.classList.remove("light");
+                    html.classList.add("dark");
+                    localStorage.setItem("theme", "dark");
+                }
+            });
+
+            // Sync structural local configuration variables
+            const savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "light") {
+                html.classList.remove("dark");
+                html.classList.add("light");
+            }
+        }
+
+        // 13. High Performance Smooth Scroll Tracking Indicator Engine
+        function initNavbarTracking() {
+            const nav = document.getElementById("main-nav");
+            const progress = document.getElementById("scroll-progress");
+
+            window.addEventListener("scroll", () => {
+                const scrollPos = window.scrollY;
+                const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+                
+                // Fluid structural width allocation ratios based on scrolling vectors
+                if (progress && totalHeight > 0) {
+                    const scaleX = scrollPos / totalHeight;
+                    progress.style.transform = `scaleX(${scaleX})`;
+                }
+
+                if (nav) {
+                    if (scrollPos > 50) {
+                        nav.classList.remove("py-4", "bg-transparent");
+                        nav.classList.add("py-3", "bg-gray-950/80", "border-b", "border-white/5", "shadow-xl");
+                        document.querySelector(".light #main-nav")?.classList.add("bg-white/90");
+                    } else {
+                        nav.classList.remove("py-3", "bg-gray-950/80", "border-b", "border-white/5", "shadow-xl", "bg-white/90");
+                        nav.classList.add("py-4", "bg-transparent");
+                    }
+                }
+            });
+        }
+
+        // 14. Responsive Mobile Navigation Drawer Logic Module
+        function initMobileDrawerSystem() {
+            const btn = document.getElementById("mobile-menu-btn");
+            const close = document.getElementById("mobile-close-btn");
+            const drawer = document.getElementById("mobile-drawer");
+            const links = document.querySelectorAll(".mobile-link");
+
+            if (!btn || !drawer || !close) return;
+
+            btn.addEventListener("click", () => drawer.classList.remove("-translate-x-full"));
+            close.addEventListener("click", () => drawer.classList.add("-translate-x-full"));
+            links.forEach(l => l.addEventListener("click", () => drawer.classList.add("-translate-x-full")));
+        }
+
+        // 15. Intelligent Auto-Adaptive Stage-Grade Structural Option Modifier Matrix
+        const stagesDatabase = {
+            "الابتدائية": ["الصف الرابع الابتدائي", "الصف الخامس الابتدائي", "الصف السادس الابتدائي"],
+            "الإعدادية": ["الصف الأول الإعدادي", "الصف الثاني الإعدادي", "الصف الثالث الإعدادي"],
+            "الثانوية": ["الصف الأول الثانوي", "الصف الثاني الثانوي", "الصف الثالث الثانوي"]
+        };
+
+        function adjustGradeOptions() {
+            const stageSelect = document.getElementById("form-stage");
+            const gradeSelect = document.getElementById("form-grade");
+            if (!stageSelect || !gradeSelect) return;
+
+            const selectedStage = stageSelect.value;
+            gradeSelect.innerHTML = '<option value="">اختر الصف الدراسي الدقيق للمتعلم</option>';
+
+            if (selectedStage && stagesDatabase[selectedStage]) {
+                stagesDatabase[selectedStage].forEach(grade => {
+                    const opt = document.createElement("option");
+                    opt.value = grade;
+                    opt.innerText = grade;
+                    opt.className = "bg-gray-950";
+                    gradeSelect.appendChild(opt);
+                });
+            }
+        }
+
+        // 16. Structural Reservation Modal Windows Visibility Routing Architecture
+        function openReservationModal(preSelectedStage = "") {
+            const modal = document.getElementById("reservation-modal");
+            const card = document.getElementById("modal-container-card");
+            const stageSelect = document.getElementById("form-stage");
+
+            if (!modal || !card) return;
+
+            modal.classList.remove("pointer-events-none", "opacity-0");
+            modal.classList.add("opacity-100");
+            card.classList.remove("scale-95");
+            card.classList.add("scale-100");
+
+            if (preSelectedStage) {
+                if (stageSelect) {
+                    stageSelect.value = preSelectedStage;
+                    adjustGradeOptions();
+                }
+            }
+        }
+        function closeReservationModal() {
+            const modal = document.getElementById("reservation-modal");
+            const card = document.getElementById("modal-container-card");
+            if (modal && card) {
+                modal.classList.remove("opacity-100");
+                modal.classList.add("pointer-events-none", "opacity-0");
+                card.classList.remove("scale-100");
+                card.classList.add("scale-95");
+            }
+        }
+
+        // 17. High Performance Native Conversion Compilation Engine to WhatsApp Pipeline Router
+        function executeReservationRoute(e) {
+            e.preventDefault();
+
+            const name = document.getElementById("form-name").value.trim();
+            const phone = document.getElementById("form-phone").value.trim();
+            const gov = document.getElementById("form-gov").value.trim();
+            const area = document.getElementById("form-area").value.trim();
+            const stage = document.getElementById("form-stage").value;
+            const grade = document.getElementById("form-grade").value;
+            const message = document.getElementById("form-msg").value.trim();
+
+            const parsedMessage = 
+`السلام عليكم يا مستر محمود سعيد، أود الاستفسار وحجز مقعد مخصص في الكورس البرمجي والتعليمي الخاص بك. إليك بيانات الطالب بالتفصيل:
+
+الاسم الكامل : ${name}
+رقم الهاتف المباشر : ${phone}
+المحافظة : ${gov}
+المنطقة السكنية : ${area}
+المرحلة التعليمية : ${stage}
+الصف الدراسي الحالي : ${grade}
+ملاحظات وإضافات خاصة : ${message ? message : 'لا يوجد'}
+
+يرجى إفادتي بمواعيد البدء المتاحة وأقرب مجموعة، شكراً جزيلاً لك!`;
+
+            const encodedUri = encodeURIComponent(parsedMessage);
+            window.open(`https://wa.me/201020281736?text=${encodedUri}`, '_blank');
+            closeReservationModal();
+            document.getElementById("whatsapp-reservation-form").reset();
+        }
+
+        // 18. Secondary In-Line Fast Communication Matrix Forwarder Route
+        function handleDirectContact(e) {
+            e.preventDefault();
+            const name = document.getElementById("contact-name").value.trim();
+            const phone = document.getElementById("contact-phone").value.trim();
+            const message = document.getElementById("contact-message").value.trim();
+
+            const parsedMessage = 
+`السلام عليكم يا مستر محمود سعيد (استفسار سريع عبر نموذج التواصل بالموقع):
+الاسم : ${name}
+الهاتف : ${phone}
+الرسالة والاستفسار : ${message}`;
+
+            window.open(`https://wa.me/201020281736?text=${encodeURIComponent(parsedMessage)}`, '_blank');
+            document.getElementById("direct-contact-form").reset();
+        }
+
+        // 19. Copy to Clipboard Extra Utility Modules
+        function copyPhoneNumber() {
+            navigator.clipboard.writeText("01020281736").then(() => {
+                alert("تم نسخ رقم الهاتف بنجاح للتواصل الفوري: 01020281736");
+            });
+        }
+
+        // 20. Web Share API Pipeline Utility Controller
+        function sharePlatform() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'المنصة التعليمية للمهندس محمود سعيد',
+                    text: 'اكتشف أقوى دورات البرمجة والذكاء الاصطناعي ومناهج الـ ICT مع المهندس محمود سعيد.',
+                    url: window.location.href
+                }).catch(console.error);
+            } else {
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    alert("تم نسخ رابط المنصة بنجاح! يمكنك الآن مشاركته مع أصدقائك وعبر وسائل التواصل الاجتماعي.");
+                });
+            }
+        }
+    </script>
+</body>
+</html>
